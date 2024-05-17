@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "publish": "ng build --output-path docs --base-href https://matteocappella02.github.io/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
