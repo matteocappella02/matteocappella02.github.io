@@ -24,12 +24,37 @@ main {
 
 section {
     padding: 10px 20px;
-
-    p {
-        text-align: center;
-    }
 }
 
+p {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3D400;
+    border-top: 5px solid #EE74D7;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    .contacts {
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+
+        .icon {
+            margin-right: 15px;
+        }
+
+        a {
+            color: #EE74D7;
+        }
+    }
+}
 
 
 /* Extra small devices (phones, 600px and down) */
