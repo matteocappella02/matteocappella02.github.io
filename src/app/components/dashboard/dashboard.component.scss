@@ -1,8 +1,14 @@
-img {
+.picture {
     border: 5px solid #EE74D7;
     border-radius: 50%;
     max-width: 100px;
     max-height: 100px;
+}
+
+.logo {
+    max-width: 80px;
+    max-height: 80px;
+    padding: 10px;
 }
 
 header {
@@ -20,14 +26,29 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
-section {
-    padding: 10px 20px;
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+    width: 100%;
 }
 
-p {
-    text-align: center;
+.tech {
+    border-top: 5px solid #EE74D7;
+    width: 100%;
+
+    .logo-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 footer {
@@ -49,50 +70,5 @@ footer {
         .icon {
             margin-right: 15px;
         }
-
-        a {
-            color: #EE74D7;
-        }
-    }
-}
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    img {
-        max-width: 150px;
-        max-height: 150px;     
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    img {
-        max-width: 150px;
-        max-height: 150px;     
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    img {
-        max-width: 150px;
-        max-height: 150px;     
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    img {
-        max-width: 200px;
-        max-height: 200px;     
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    img {
-        max-width: 250px;
-        max-height: 250px;     
     }
 }
