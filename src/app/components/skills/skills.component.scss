@@ -1,22 +1,70 @@
 .skills {
+    align-items: center;
     border-top: 5px solid #EE74D7;
-    width: 100%;
     display: flex;
     flex-direction: column;
+    height: 100%;
     justify-content: center;
-    align-items: center;
+    width: 100%;
 }
 
 .skills-container {
+    height: 100%;
     align-items: center;
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 3rem;
 }
 
 .logo {
-    max-width: 80px;
-    max-height: 80px;
-    padding: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding: 15px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo {
+        max-width: 80px;
+        max-height: 80px;     
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logo {
+        max-width: 80px;
+        max-height: 80px;     
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logo {
+        max-width: 100px;
+        max-height: 100px;     
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .logo {
+        max-width: 100px;
+        max-height: 100px;     
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .logo {
+        max-width: 100px;
+        max-height: 100px;     
+    }
 }

@@ -1,3 +1,98 @@
+.description-container {
+    border-top: 5px solid #EE74D7;
+}
+
+.picture {
+    border: 5px solid #EE74D7;
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.picture-container {
+    background-color: #E3D400;
+    border-bottom: 5px solid #EE74D7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
 .description {
     padding: 3rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .description-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .picture {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .description-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .picture {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .description-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .picture {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .description-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .picture {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .picture-container {
+        border-bottom: none;
+        border-right: 5px solid #EE74D7;
+        width: 50%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .description-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .picture {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .picture-container {
+        border-bottom: none;
+        border-right: 5px solid #EE74D7;
+        width: 50%;
+    }
 }

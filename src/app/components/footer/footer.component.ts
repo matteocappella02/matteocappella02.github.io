@@ -14,7 +14,5 @@ export class FooterComponent {
 
   linkedinIcon = faLinkedin;
   githubIcon = faGithub;
-  instagramIcon = faInstagram;
-  facebookIcon = faFacebook;
 
 }
