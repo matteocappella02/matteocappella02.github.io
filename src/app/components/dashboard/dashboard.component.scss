@@ -1,74 +1,8 @@
-.picture {
-    border: 5px solid #EE74D7;
-    border-radius: 50%;
-    max-width: 100px;
-    max-height: 100px;
-}
-
-.logo {
-    max-width: 80px;
-    max-height: 80px;
-    padding: 10px;
-}
-
-header {
-    background-color: #E3D400;
-    border-bottom: 5px solid #EE74D7;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
-}
-
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     overflow-y: scroll;
     overflow-x: hidden;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 120px;
+    height: 100%;
     width: 100%;
-}
-
-.tech {
-    border-top: 5px solid #EE74D7;
-    width: 100%;
-
-    .logo-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #E3D400;
-    border-top: 5px solid #EE74D7;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-
-    .contacts {
-        padding: 15px;
-        display: flex;
-        flex-direction: row;
-
-        .icon {
-            margin-right: 15px;
-        }
-    }
 }

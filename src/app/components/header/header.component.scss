@@ -1,0 +1,16 @@
+.picture {
+    border: 5px solid #EE74D7;
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+header {
+    background-color: #E3D400;
+    border-bottom: 5px solid #EE74D7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}

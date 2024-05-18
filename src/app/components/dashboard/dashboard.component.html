@@ -1,48 +1,5 @@
 <main>
-    <header>
-        <img class="picture" src="./../../../assets/Cattura.PNG">
-    </header>
-    <div class="content">
-        <section class="description">
-            <p>👋 Hi everyone 👋 </p>
-            <p>I'm Matteo Cappella and I'm a <strong>Software Engineer</strong> based in Milan 🇮🇹.</p>
-            <p>I have {{ experienceYears }} years experience in <strong>Web development</strong> and I love to interact
-                with
-                other people 👥 and building stuff togheter.</p>
-
-            <p>I currently work as <strong>Team Leader and Frontend Developer</strong> at
-                <a href="https://leitha.eu/" target="_blank">Leithà | Unipol Group</a>.
-            </p>
-        </section>
-
-        <section class="tech">
-            <h2>Tech that I love 💖</h2>
-            <div class="logo-container">
-                <img class="logo" src="./../../../assets/tech/angular.svg">
-                <img class="logo" src="./../../../assets/tech/react.svg">
-                <img class="logo" src="./../../../assets/tech/javascript.svg">
-                <img class="logo" src="./../../../assets/tech/typescript.svg">
-                <img class="logo" src="./../../../assets/tech/python.svg">
-                <img class="logo" src="./../../../assets/tech/mongodb.svg">
-            </div>
-        </section>
-    </div>
-
-    <footer>
-        <div class="contacts">
-            <a href="https://www.facebook.com/matteo.cappella2" target="_blank">
-                <fa-icon size="2x" class="icon" [icon]="facebookIcon"></fa-icon>
-            </a>
-            <a href="https://www.instagram.com/matteo.capp/" target="_blank">
-                <fa-icon size="2x" class="icon" [icon]="instagramIcon"></fa-icon>
-            </a>
-            <a href="https://www.linkedin.com/in/matteo-cappella/" target="_blank">
-                <fa-icon size="2x" class="icon" [icon]="linkedinIcon"></fa-icon>
-            </a>
-            <a href="https://github.com/matteocappella02" target="_blank">
-                <fa-icon size="2x" class="icon" [icon]="githubIcon"></fa-icon>
-            </a>
-        </div>
-        <p>© 2024 - Matteo Cappella</p>
-    </footer>
+    <app-header />
+    <app-description />
+    <app-skills />
 </main>

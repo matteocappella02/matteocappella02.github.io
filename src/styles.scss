@@ -1,10 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
-body {
+html, body {
     padding: 0;
     margin: 0;
     background-color: #FFFEAA;
     font-family: "Roboto", sans-serif;
+    height: 100%;
+    min-height: 100vh;
 }
 
 p {
@@ -19,10 +21,6 @@ h1, h2, h3 {
     color: #EE74D7;
     font-weight: 700;
     text-align: center;
-}
-
-section {
-    padding: 10px 20px;
 }
 
 
